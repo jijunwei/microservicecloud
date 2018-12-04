@@ -5,21 +5,7 @@
 # 一、准备工作 #
 
 
-## 1.1配置虚拟主机映射 ##
-
-hosts文件路径：`C:\Windows\System32\drivers\etc`
-
-增加三句：
-
-```
-
-127.0.0.1 eureka7001.com
-127.0.0.1 eureka7002.com
-127.0.0.1 eureka7003.com
-127.0.0.1 config-3344.com
-```
-
-## 1.2数据库 ##
+## 1.1配置数据库 ##
 
 创建三个数据库
 
@@ -154,26 +140,6 @@ Eureka服务提供方(集群)
 
 ## 2.5Cloud配置文件 ##
 
-
-git脚本回顾：
-
-```git
-
-1. git init //初始化仓库
-
-2. git add .(文件name) //添加文件到本地仓库
-
-3. git commit -m "first commit" //添加文件描述信息
-
-4. git remote add origin + 远程仓库地址 //链接远程仓库，创建主分支
-
-5. git pull origin master --allow-unrelated-histories  // 把本地仓库的变化连接到远程仓库主分支
-
-6. git push -u origin master //把本地仓库的文件推送到远程仓库
-
-
-```
-
 SpringCloud Config服务端(获取配置都从这里来拿)
 
 - microservicecloud-config-3344
@@ -194,8 +160,6 @@ SpringCloud Config 客户端：
 
 ![](https://i.imgur.com/CgrUIwL.png)
 
-# 最后 #
 
-获取更多**原创文章**，公众号：Java3y
 
 

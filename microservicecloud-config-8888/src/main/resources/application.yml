@@ -1,0 +1,18 @@
+server: 
+  port: 8888
+  
+spring:
+  application:
+    name:  microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jijunwei/springcloud.git
+
+# 访问地址一：http://localhost:8888/neo-config/dev
+# 访问地址二：http://localhost:8888/neo-config-dev.properties
+# 我的GitHub仓库地址：https://github.com/jijunwei/springcloud.git
+
+
+

@@ -1,0 +1,15 @@
+server:
+  port: 82
+  
+# 在feign中开启熔断器
+feign: 
+  hystrix: 
+    enabled: true
+
+
+# 配置集群eureka注册中心
+eureka:
+  client:
+    register-with-eureka: false
+    service-url: 
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/

@@ -1,6 +1,6 @@
 # 前言 #
 
-Demo来源于网上，修改与研究
+Demo来源于网上，Forked from ZhongFuCheng3y/msc-config,修改与研究
 
 # 一、准备工作 #
 

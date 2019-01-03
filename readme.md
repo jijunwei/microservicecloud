@@ -1,6 +1,6 @@
 # 前言 #
 
-Demo来源于网上，Forked from ZhongFuCheng3y/msc-config,修改与研究
+Demo修改与研究
 
 # 一、准备工作 #
 
@@ -127,7 +127,7 @@ Eureka服务提供方(集群)
 
 监控的数据就会变化了：
 
-![](https://i.imgur.com/ITs9WPS.png)
+
 
 
 
@@ -158,7 +158,7 @@ SpringCloud Config 客户端：
 
 如果使用的是IDEA的话，使用 Run dashboard比较方便~
 
-![](https://i.imgur.com/CgrUIwL.png)
+
 
 
 
